@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meisie</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <img class="mobile-logo" src="./img/home-logo.png" alt="Logo">
+
+  <button class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="menu-overlay"></div>
+
+  <div id="container">
+    <div class="navigator-header">
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#main-content-waitlist" data-scroll-to data-close-menu>Winners</a></li>
+          <li class="nav-item"><a href="#main-content-community" data-scroll-to data-close-menu>Communities</a></li>
+          <li class="nav-item"><a href="#container" data-scroll-to data-close-menu>Home</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="align-logo-main-content">
+      <img class="home-vector" src="./img/home-vector.png" alt="Home Vector">
+
+      <div class="hero-image-container">
+        <img class="home-image" src="./img/home-img.png" alt="Hero Image">
+      </div>
+
+      <img class="logo" src="./img/home-logo.png" alt="Logo">
+
+      <div id="main-content">
+        <div class="home-text-container">
+          <h1 class="home-title">Where women rise together</h1>
+          <p class="home-text">Built for women, by women. Connect, collaborate, and conquer in a community
+            that celebrates you</p>
+          <button class="waitlist-button" data-scroll-to="main-content-waitlist">Join the waitlist</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="community-container">
+      <div class="community-section">
+        <div id="main-content-community">
+          <h1 class="community-title">Why join Meisie network?</h1>
+          <p class="community-text">A community designed to elevate and empower</p>
+          <button class="waitlist-button-community" data-scroll-to="main-content-waitlist">Join the waitlist</button>
+        </div>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="half-circle"></div>
+            <img src="./img/connect-vector.png" class="icon">
+            <div class="box-text">
+              <p class="box-title">Authentic Connections</p>
+              <p>Build meaningful relationships with women who understand and support your vision.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="half-circle"></div>
+            <img src="./img/up-arrow-vector.png" class="icon">
+            <div class="box-text">
+              <p class="box-title">Career Growth</p>
+              <p>Access opportunities and resources to accelerate your professional development.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="half-circle"></div>
+            <img src="./img/share-vector.png" class="icon">
+            <div class="box-text">
+              <p class="box-title">Share Knowledge</p>
+              <p>Learn from experts, share your expertise, and grow in a collaborative environment.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="half-circle"></div>
+            <img src="./img/hand-vector.png" class="icon">
+            <div class="box-text">
+              <p class="box-title">Safe Space</p>
+              <p>A women-only platform where you can be authentic, and bold without judgement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="experience-page">
+      <div class="experience-container">
+        <div class="experience-box">
+          <img src="./img/communities-bg-vector.png" alt="Experience 1" class="experience-bg">
+          <img src="./img/experience-img.png" alt="Experience 1" class="experience-image">
+          <div class="experience-text">
+            <h1 class="experience-title">What You'll Experience in Meisie</h1>
+            <p>A curated women-only environment designed to help you flourish personally and professionally.</p>
+            <ul>
+              <li><strong>Supportive circles:</strong> Intimate groups for real conversations.</li>
+              <li><strong>Learning Pathways:</strong> Guided themes on mindset, wellness and leadership.</li>
+              <li><strong>Mentor Moments:</strong> Short, powerful sessions with women who've walked the
+                path before you.</li>
+            </ul>
+            <button class="waitlist-button" data-scroll-to="main-content-waitlist">Join the waitlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-content-waitlist">
+      <div class="waitlist-container">
+        <div class="waitlist-text-container">
+          <p class="waitlist-text">Join our waitlist and get exclusive early access</p>
+          <h1>Be the First to Know</h1>
+        </div>
+        <form class="input-container" id="waitlistForm">
+          <div class="name-address-container">
+            <input type="text" name="fullName" placeholder="Full Name *" required>
+            <input type="email" name="email" placeholder="Email Address *" required>
+          </div>
+
+          <div class="occupation-community-container">
+            <input type="text" name="occupation" placeholder="Occupation *" required>
+            <textarea name="interest" placeholder="What are you looking for in this community? *"
+              class="community-textarea" required></textarea>
+          </div>
+
+          <button class="waitlist-button">Secure my spot</button>
+
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-text">
+              <img src="./img/footer-logo.png" alt="Logo">
+            </div>
+          </div>
+          <div class="social-icons">
+            <img src="./img/twitter-icon.png" alt="Twitter">
+            <img src="./img/facebook-icon.png" alt="Facebook">
+            <img src="./img/instagram-icon.png" alt="Instagram">
+            <img src="./img/linkedin-icon.png" alt="Linkedin">
+          </div>
+          
+          <p class="follow-text">Follow us</p>
+        </div>
+
+
+
+        <div class="footer-column">
+          <h4>Become a partner</h4>
+          <p>Empower yourself with<br>our materials</p>
+          <a href="#" class="footer-link">FAQs</a>
+          
+        </div>
+
+        <div class="footer-column">
+          <h4>About Meisie</h4>
+          <p>Get to know about Meisie and<br>the values that motivate us</p>
+          
+        </div>
+      </div>
+       <p class="credits"><a href="https://wouessi.com">Designed by Wouessi Inc.</a></p>
+
+      <div class="footer-divider"></div>
+      
+      <p class="footer-bottom">© 2025 Meisie Network. All Rights Reserved</p>
+    </footer>
+  </div>
+
+   <script src="script.js" defer></script>
+  <script src="menu.js" defer></script>
+  <script src="scroll.js" defer></script>
+</body>
+
+</html>
