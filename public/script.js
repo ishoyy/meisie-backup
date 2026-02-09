@@ -1,5 +1,6 @@
+// for form submissions
+
 document.addEventListener('DOMContentLoaded', () => {
-  // 1️⃣ Waitlist form submission
   const form = document.getElementById('waitlistForm');
   if (form) {
     form.addEventListener('submit', async (e) => {

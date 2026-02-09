@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  }
+}
